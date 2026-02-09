@@ -89,7 +89,7 @@ Clone the repository and colcon build:
 
 ```bash
     cd <ros2_ws>/src # cd into a ros2 workspace folder
-    git clone https://github.com/hengzhiyou666/FAST_LIO_ROS2.git
+    git clone --recursive https://github.com/hengzhiyou666/FAST_LIO_ROS2.git
     cd ..
     rosdep install --from-paths src --ignore-src -y
     colcon build --symlink-install
