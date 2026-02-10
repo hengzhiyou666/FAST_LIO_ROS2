@@ -38,6 +38,8 @@
 
         publish:
             path_en:  false
+            effect_map_en: false
+            map_en: true                 # true: 发布地图点云到 /Laser_map
             scan_publish_en:  true       # false: close all the point cloud output
             dense_publish_en: true       # false: low down the points number in a global-frame point clouds scan.
             scan_bodyframe_pub_en: true  # true: output the point cloud scans in IMU-body-frame
